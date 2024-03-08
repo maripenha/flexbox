@@ -6,7 +6,7 @@
 
 ul{
     display: flex;
-    width: 80%;
+    width: 60%;
     list-style: none;
     justify-content: space-around;
     margin-right: 15px;
@@ -29,5 +29,70 @@ nav{
     height: 100%;
     display: flex;
     justify-content: end;
+    align-items: center;
+}
+
+.card-style{
+    background-color: rgb(140, 201, 255);
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 15px;
+    margin: 15px;
+}
+
+.first-input-style{
+    border: none;
+    outline: none;
+    border-radius: 80px;
+    width: 95%;
+    padding: 8px;
+}
+
+.flowers-img{
+    width: 360px;
+    height: 420px;
+    border-radius: 20px;
+
+}
+
+.card-style2{
+    background-color: rgb(140, 201, 255);
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+
+    padding: 15px;
+    margin: 15px;
+
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-input-style{
+    border: none;
+    outline: none;
+    border-radius: 80px;
+    width: 95%;
+    padding: 8px;
+}
+
+.flowers-img2{
+    width: 180px;
+    height: 150px;
+    border-radius: 20px;
+}
+.main{
+    display: flex;
     align-items: center;
 }
